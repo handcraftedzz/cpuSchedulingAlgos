@@ -1,2 +1,12 @@
+cat > .gitignore <<'EOF'
 .DS_Store
+*.o
+*.gch
+*.out
 a.out
+fcfs
+priority
+rr
+sjf
+.vscode/
+EOF
