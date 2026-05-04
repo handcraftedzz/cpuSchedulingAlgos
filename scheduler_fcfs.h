@@ -5,8 +5,6 @@
  * @brief This Scheduler class implements the FCSF scheduling algorithm.
  * @version 0.1
  */
-//You must complete the all parts marked as "TODO". Delete "TODO" after you are done.
-// Remember to add sufficient and clear comments to your code
 
 #ifndef ASSIGN3_SCHEDULER_FCFS_H
 #define ASSIGN3_SCHEDULER_FCFS_H
@@ -17,7 +15,6 @@
  */
 class SchedulerFCFS : public Scheduler {
 private:
-    // TODO: add necessary member variables here for your implementation
     vector<PCB> processesFCFS; //this vector keeps track of the processes in the FCFS based scheduler
     vector<unsigned int> waitingTimes;  //unsigned so that way I pass test cases where negative integers are read from .txt fil
     vector<unsigned int> turnAroundTimes;

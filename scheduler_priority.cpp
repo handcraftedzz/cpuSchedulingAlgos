@@ -5,8 +5,6 @@
  * @brief This Scheduler class implements the Priority scheduling algorithm.
  * @version 0.1
  */
-//You must complete the all parts marked as "TODO". Delete "TODO" after you are done.
-// Remember to add sufficient and clear comments to your code
 
 #include <sstream>
 #include "scheduler_priority.h"
@@ -103,16 +101,6 @@ void SchedulerPriority::print_results()
 
 void SchedulerPriority::simulate()
 {
-    //prioritize priority number, then if two processes have the same priority.
-    /*
-    for (int l = 0; l < processesPri.size(); l++) //The one that gets printed first will be one with smaller num in the process name "T1, T2, T3".
-    {
-
-
-    }
-    */
-
-
     unsigned int j, k, unsortedIndex, unsortedPri;
     unsigned int currentPri, currentIndex;
     unsortedIndex = 0;
@@ -157,5 +145,3 @@ void SchedulerPriority::simulate()
     processesPri[unsortedIndex] = temp;       
     }
 }
-// TODO: add implementation of SchedulerPriority constructor, destrcutor and 
-// member functions init, print_results, and simulate here
